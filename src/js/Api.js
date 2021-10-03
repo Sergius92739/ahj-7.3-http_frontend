@@ -10,8 +10,8 @@ export default class Api {
     const options = {
       method: 'POST',
       query: 'method=saveImage',
-      body: formData
-    }
+      body: formData,
+    };
     return this.creatRequest(options, callback);
   }
 
@@ -19,8 +19,8 @@ export default class Api {
     const options = {
       method: 'GET',
       query: 'method=allImages',
-      body: null
-    }
+      body: null,
+    };
     return this.creatRequest(options, callback);
   }
 
@@ -30,8 +30,8 @@ export default class Api {
     const options = {
       method: 'POST',
       query: 'method=removeImage',
-      body: formData
-    }
+      body: formData,
+    };
     return this.creatRequest(options, callback);
   }
 
