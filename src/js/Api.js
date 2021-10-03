@@ -1,6 +1,6 @@
 export default class Api {
-  constructor() {
-    this.baseURL = 'https://ahj-7-3-sergius-image-manager.herokuapp.com/';
+  constructor(url) {
+    this.baseURL = url;
   }
 
   saveImage(file, callback) {

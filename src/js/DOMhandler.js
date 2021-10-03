@@ -5,7 +5,7 @@ export default class FormHandler {
     this.input = document.querySelector('.input');
     this.label = document.querySelector('.label');
     this.gallery = document.querySelector('.gallery__row.row');
-    this.api = new Api();
+    this.api = new Api('https://ahj-7-3-sergius-image-manager.herokuapp.com/');
     this.currentID = null;
 
     this.onChange = this.onChange.bind(this);
