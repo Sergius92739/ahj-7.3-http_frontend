@@ -1,8 +1,10 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/j6cjriu4ayrdlm41/branch/master?svg=true)](https://ci.appveyor.com/project/Sergius92739/ahj-7-3-http-frontend/branch/master)
+
 #### Deployment: <a href="">Github Pages</a>
 
-#### Backend: <a href="">Repository</a>
+#### Backend: <a href="https://github.com/Sergius92739/ahj-7.3-http_backend">Repository</a>
 
-#### Server: <a href="">Heroku</a>
+#### Server: <a href="https://ahj-7-3-sergius-image-manager.herokuapp.com/">Heroku</a>
 
 ---
 
